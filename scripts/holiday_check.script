@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+grep $(date "+%Y-%m-%d") local/holiday.list && sleep 20 || exit 0
